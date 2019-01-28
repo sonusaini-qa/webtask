@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Web Assignment 2</title>
+
+       <link rel = "stylesheet" type = "text/css" href = "styles.css" >
+
+    </head>
+
+    <body>
+      <div class = "form">
+        <center><h1 >Sign Up</h1></center>
+         <form>
+           <div class = "signup">
+            <div class="padding1">
+            <label for ="name" ><b>Name</b></label><br>
+            <input type = "text" placeholder="Enter name" class = "label1" required>
+           </div>
+           <div class="padding1">
+            <label for = "address" > <b>Address</b></label><br>
+            <textarea rows="2" cols="27" name="comment" form="usrform" class = "label1" fixed></textarea>
+          </div>
+          <div class="padding1">
+            <label><b>Password</b></label><br>
+            <input type = "password" placeholder="Enter Password"  class = "label1" size="30" required>
+          </div>
+          <div class="padding1">
+            <label><b>Confirm Password</b></label><br>
+            <input type ="password" placeholder="Enter Password" class = "label1" size="30" required>
+          </div>
+          <div class="padding1">
+            <label><b>Email</b></label><br>
+            <input type ="password" placeholder="Enter Password" class = "label1" size="30" required>
+          </div>
+          <div class="padding1">
+            <label><b>Gender</b></label><br>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+          </div >
+          <div class="padding1">
+            <label><b>D.O.B.</b></label><br>
+             <input type="date" name="dob" class = "label1">
+          </div>
+          <div class="padding1">
+            <label><b>Mobile No.</b></label><br>
+            <input type ="number" placeholder="Enter Password" class = "label1" size="30" required>
+          </div>
+          <div class="padding1">
+            <label><b>Language Known</b></label><br>
+             <input type = "checkbox" name = "hindi">Hindi
+             <input type = "checkbox" name = "english" > English
+          </div>
+          <div class="padding1">
+            <label><b>Country</b></label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">India</option>
+              <option value="usa">USA</option>
+            </select>
+          </div><br><br>
+          <div>
+              <b>Picture up :</b>
+              <input type="file" name="pic" accept="image/*">
+          </div>
+          <div class="sgnbtn">
+           <button class= "submit" class= "label1" name = "submit">Submit</button>
+          </div>
+
+
+          </div>
+
+
+        </form>
+      </div>
+    </body>
+
+
+</html>

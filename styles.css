@@ -1,0 +1,150 @@
+body {
+  width: 100%;
+  height:auto;
+  background-color: grey ;
+  background-image: url(background-image.jpeg);
+}
+
+.form {
+  border: 20px solid grey ;
+    margin-top:40px;
+    width:40%;
+    height:900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white ;
+    padding-left:50px;
+
+}
+.signup {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+
+}
+.padding1 {
+  padding-top: 20px;
+
+}
+.label1 {
+   margin-left: auto;
+   margin-right: auto;
+   height : 20px;
+   width : 80% ;
+
+}
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%; border:10px solid grey;
+  transform: translate(Email-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover { border:10px solid grey;
+  background-color: black;
+  color: white;
+}
+.submit{
+     margin-top: 50px;
+     margin-left : 0px ;
+     height:30px;
+     width: 230px;
+     background-color:grey;
+}
+<!-- This is for Logout -->
+
+.header2 {
+   border:10px solid red;
+   background-color: red;
+   color:red ;
+   width : 100%;
+   height :20%;
+
+
+}
+
+.logoutpic{
+  height:5%;
+  width: 5%;
+}
+.header1 {
+
+   margin-left: 180px;
+   color:white ;
+
+}
+.footer {
+  bootom:0px;
+  width:100%;
+  height:5%;
+  background-color: grey;
+}
+.card{
+   margin-left:2px;
+   height:40%;
+   width : 60%;
+}
+.cards{
+  margin-left:auto;
+}
+.cardrow{
+   margin-left : 20px;
+}
+
+.colorText {
+  color : white ;
+}
+
+<!-- This is for Login -->
+.align_center{
+border:10px solid grey;
+  background-color: lightgrey;
+  width: 100%;
+  border: 25px solid grey;
+  padding-top: 10px; border:10px solid grey;
+
+}
+
+.inputField {
+
+  width: 40%;
+ padding: 10px;
+
+
+}
+.form1 {
+
+   height:450px; border:10px solid grey;
+   width: 450px;
+
+
+}
+.btn {
+ margin-left: 20px;
+  width: 80px;
+ padding: 8px;
+ background: grey; border:10px solid grey;
+ color :black;
+ border:10px solid grey;
+
+}
+.border{
+  padding: 2%;
+  margin-top:5%;
+  margin-left:20%;
+  margin-right:20%;
+  background-color: white;
+   border:10px solid grey ;
+
+}

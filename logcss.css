@@ -1,0 +1,42 @@
+.header {
+   width : 100%;
+   height :20%;
+   background-color:grey;
+}
+body {
+  width: 100%;
+  height:auto;
+  background-color: grey ;
+  background-image: url(background-image.jpeg);
+}
+.logoutpic{
+  height:5%;
+  width: 5%;
+}
+.header1 {
+
+   margin-left: 180px;
+   color:white ;
+
+}
+.footer {
+  bootom:0px;
+  width:100%;
+  height:5%;
+  background-color: grey;
+}
+.card{
+   margin-left:2px;
+   height:40%;
+   width : 60%;
+}
+.cards{
+  margin-left:auto;
+}
+.cardrow{
+   margin-left : 20px;
+}
+
+.colorText {
+  color : white ;
+}
